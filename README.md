@@ -16,7 +16,7 @@ About 9,000 lines of engine and 1,300 lines of tests.
 
 *That image is not a screenshot of another browser. It is SVG emitted by
 Mote's own painter from Mote's own layout — `python3 -m mote --svg out.svg
-examples/kitchen-sink.html`. More in the [gallery](docs/gallery.html).*
+examples/kitchen-sink.html`. More in the [gallery](https://ctbot000.github.io/web-browser-from-scratch/).*
 
 ## Run it
 
