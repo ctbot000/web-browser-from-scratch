@@ -1,0 +1,27 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.9", "3.11", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Run the test suite
+        run: python -m unittest discover -s tests -t . -v
+      - name: Render a page headlessly
+        run: |
+          python -m mote --text --columns 80 examples/kitchen-sink.html
+          python -m mote --svg /tmp/out.svg --full-height examples/kitchen-sink.html
+          python -m mote --dump layout about:features > /dev/null

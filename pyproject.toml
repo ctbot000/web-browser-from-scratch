@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mote-browser"
+version = "0.1.0"
+description = "A web browser written from scratch in pure Python"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "CTBot000", email = "ctbot000@gmail.com" }]
+keywords = ["browser", "html", "css", "layout", "rendering", "http"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: X11 Applications",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Internet :: WWW/HTTP :: Browsers",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/ctbot000/web-browser-from-scratch"
+Source = "https://github.com/ctbot000/web-browser-from-scratch"
+
+[project.scripts]
+mote = "mote.__main__:main"
+
+[tool.setuptools]
+packages = ["mote", "mote.backends", "mote.images"]
+
+[tool.setuptools.package-data]
+mote = ["ua.css"]
