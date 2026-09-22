@@ -321,9 +321,14 @@ class HTMLParser:
                 return False
         return False
 
-    def _close_implied(self, *extra):
+    def _close_implied(self, exclude=None):
+        """HTML5's "generate implied end tags", optionally sparing one tag.
+
+        The exclusion matters: closing </b> must not also close the <p> the
+        bold text sits in, but starting a new <li> must close the open one.
+        """
         implied = {"p", "li", "dd", "dt", "option", "optgroup", "rt", "rp"}
-        implied.update(extra)
+        implied.discard(exclude)
         while self.stack and self.stack[-1].tag in implied:
             self.stack.pop()
 
@@ -533,7 +538,7 @@ class HTMLParser:
             if self._pop_until(name, {"html"}):
                 return
             return
-        self._close_implied(name)
+        self._close_implied(exclude=name)
         if not self._pop_until(name):
             self._record_error("stray </%s>" % name, 0)
 
