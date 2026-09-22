@@ -211,6 +211,27 @@ class ReplacedBox(Box):
         self.label = label
         self.inline_level = style.display in INLINE_LEVEL
 
+    def layout(self, context, containing_width, x, y, float_context=None):
+        """Place a block-level replaced element, as a block box would be."""
+        self.resolve_edges(context, containing_width)
+        self.resolve_size(context, containing_width)
+        left_auto = (self.style.get("margin-left") or "").strip() == "auto"
+        right_auto = (self.style.get("margin-right") or "").strip() == "auto"
+        slack = (containing_width - self.width - self.padding.horizontal -
+                 self.border.horizontal - self.margin.horizontal)
+        if left_auto and right_auto and slack > 0:
+            self.margin.left = self.margin.right = slack / 2.0
+        elif left_auto and slack > 0:
+            self.margin.left = slack
+        self.x = x + self.margin.left + self.border.left + self.padding.left
+        self.y = y + self.margin.top + self.border.top + self.padding.top
+        self.apply_relative(context, containing_width)
+        return self.y + self.height + self.padding.bottom + \
+            self.border.bottom + self.margin.bottom
+
+    def is_absolute(self):
+        return self.style.keyword("position") in ("absolute", "fixed")
+
     def resolve_size(self, context, containing_width):
         lengths = context.lengths(self.style, containing_width)
         width = parse_length(self.style.get("width"), lengths) \
@@ -292,7 +313,7 @@ class BlockBox(Box):
         out like one, but it participates in its parent as a very large word,
         so it must not put the parent into block formatting.
         """
-        return any(isinstance(c, (BlockBox, TableBox)) and
+        return any(isinstance(c, (BlockBox, TableBox, ReplacedBox)) and
                    c.style.display not in INLINE_LEVEL
                    for c in self.children)
 
@@ -390,18 +411,21 @@ class BlockBox(Box):
         return layout_inline_content(self, context, float_context)
 
     def _layout_block_children(self, context, float_context):
+        centres_blocks = self.style.keyword("text-align") in (
+            "-webkit-center", "-moz-center")
         cursor = self.y
         previous_margin = 0.0
         first = True
         for child in self.children:
-            if isinstance(child, BlockBox) and child.is_absolute():
+            if isinstance(child, (TextBox, InlineBox)) or \
+                    child.style.display in INLINE_LEVEL:
+                continue
+            if child.is_absolute():
                 context.deferred_absolutes.append((child, self))
                 continue
             if isinstance(child, BlockBox) and \
                     child.style.keyword("float", "none") != "none":
                 self._place_float(child, context, float_context, cursor)
-                continue
-            if isinstance(child, (TextBox, InlineBox, ReplacedBox)):
                 continue
 
             clear = child.style.keyword("clear", "none")
@@ -418,6 +442,8 @@ class BlockBox(Box):
                 cursor += collapsed - previous_margin - child.margin.top
             bottom = child.layout(context, self.width, self.x, cursor,
                                   float_context)
+            if centres_blocks and child.margin_box[2] < self.width:
+                _translate(child, (self.width - child.margin_box[2]) / 2.0, 0.0)
             previous_margin = child.margin.bottom
             cursor = bottom
             first = False
@@ -830,10 +856,12 @@ def layout_inline_content(box, context, float_context):
     nowrap = style.keyword("white-space") in ("nowrap", "pre")
     indent = style.length("text-indent", lengths, 0.0)
     align = style.keyword("text-align", "start")
-    if align in ("start", ""):
+    if align in ("start", "", "-moz-left"):
         align = "left"
-    if align == "end":
+    elif align == "end":
         align = "right"
+    elif align in ("-webkit-center", "-moz-center"):
+        align = "center"
 
     cursor_y = box.y
     line = LineBox()

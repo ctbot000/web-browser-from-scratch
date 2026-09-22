@@ -234,7 +234,10 @@ class StyleEngine:
                                      10 ** 6 + order, declaration))
 
         for declaration in presentational_hints(element):
-            declarations.append((False, 0, (0, 0, 0), -1, declaration))
+            # Presentational hints sit between the user-agent stylesheet and
+            # the author's, so <table align=center> beats the UA default but
+            # loses to any author rule.
+            declarations.append((False, 0.5, (0, 0, 0), -1, declaration))
 
         declarations.sort(key=_cascade_key)
 

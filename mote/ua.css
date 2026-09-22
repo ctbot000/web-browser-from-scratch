@@ -47,9 +47,10 @@ th { display: table-cell; padding: 1px; font-weight: bold; text-align: center;
 caption { display: table-caption; text-align: center }
 col { display: table-column }
 colgroup { display: table-column-group }
-table[border] > tbody > tr > td, table[border] > tr > td,
-table[border] > tbody > tr > th, table[border] > tr > th {
-  border: 1px solid #a0a0a0 }
+table[border]:not([border="0"]) > tbody > tr > td,
+table[border]:not([border="0"]) > tr > td,
+table[border]:not([border="0"]) > tbody > tr > th,
+table[border]:not([border="0"]) > tr > th { border: 1px solid #a0a0a0 }
 
 a { color: #0000ee; text-decoration: underline; cursor: pointer }
 a:visited { color: #551a8b }
@@ -68,7 +69,11 @@ abbr[title] { text-decoration: underline }
 q { display: inline }
 br { display: inline }
 nobr { white-space: nowrap }
-center { text-align: center }
+/* <center> centres its inline content *and* its block-level children;
+   tables reset it, which is why a page wrapped in <center> still has
+   left-aligned table cells. */
+center { text-align: -webkit-center }
+table { text-align: start }
 font { display: inline }
 
 img { display: inline-block }
