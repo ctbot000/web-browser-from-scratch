@@ -299,9 +299,12 @@ class StyleEngine:
         display = props.get("display", "inline").strip().lower()
         if display not in ("none",) and element.tag in ("html", "body"):
             pass
-        # An absolutely positioned or floated box is blockified, as in CSS 2.1.
-        if props.get("float", "none").strip().lower() != "none" and \
-                display in ("inline", "inline-block", "table-cell"):
+        # A floated or absolutely positioned box is blockified (CSS 2.1
+        # section 9.7): "display: inline" on it computes to "block".
+        out_of_flow = (props.get("float", "none").strip().lower() != "none" or
+                       props.get("position", "static").strip().lower()
+                       in ("absolute", "fixed"))
+        if out_of_flow and display in ("inline", "inline-block", "table-cell"):
             props["display"] = "block"
 
         return Style(props, font_size, color, element)

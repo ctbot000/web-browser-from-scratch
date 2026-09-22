@@ -58,6 +58,8 @@ class BrowserWindow:
         self.active = 0
         self._photos = []
         self._hovered = None
+        self._last_size = (0, 0)
+        self._in_status = False
         self._build_chrome()
         self.new_tab(start_url)
 
@@ -244,6 +246,11 @@ class BrowserWindow:
         return max(200, self.canvas.winfo_height())
 
     def on_resize(self, event):
+        # Re-laying out fires more Configure events; without this guard the
+        # window never finishes processing its own resize.
+        if (event.width, event.height) == self._last_size:
+            return
+        self._last_size = (event.width, event.height)
         tab = self.tab
         if tab is None or tab.page is None:
             return
@@ -333,8 +340,9 @@ class BrowserWindow:
             self.set_status(str(target) if target else anchor.get("href"))
 
     def set_status(self, message):
+        # No update_idletasks() here: this is called from inside event
+        # handlers, and pumping the loop from there re-enters them.
         self.status.config(text=message)
-        self.status.update_idletasks()
 
     # -- drawing ----------------------------------------------------------
 

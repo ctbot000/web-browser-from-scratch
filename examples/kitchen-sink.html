@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Mote &mdash; kitchen sink</title>
+<style>
+  body { font-family: Helvetica, sans-serif; color: #24292f; background: #f4f6f8;
+         margin: 0; line-height: 1.55 }
+  .page { width: 820px; margin: 0 auto; background: #ffffff; padding: 0 0 36px;
+          border-left: 1px solid #e2e6ea; border-right: 1px solid #e2e6ea }
+  header { background: #16324f; color: #ffffff; padding: 26px 34px }
+  header h1 { margin: 0; font-size: 1.7em; letter-spacing: 0.5px }
+  header p  { margin: 6px 0 0; color: #9fb4cc; font-size: 0.92em }
+  section { padding: 0 34px }
+  h2 { font-size: 1.15em; margin: 30px 0 10px; color: #16324f;
+       border-bottom: 2px solid #e2e6ea; padding-bottom: 5px }
+  p { margin: 0 0 12px }
+  code, pre { font-family: monospace; background: #f2f4f7 }
+  code { padding: 1px 5px; font-size: 0.9em; color: #9a2c2c }
+  pre { padding: 12px 14px; border-left: 4px solid #16324f; font-size: 0.86em;
+        overflow: auto }
+  .cards { margin: 0 -8px }
+  .card { display: inline-block; width: 232px; vertical-align: top;
+          margin: 0 8px 14px; padding: 14px 16px; background: #fbfcfd;
+          border: 1px solid #dfe4ea }
+  .card h3 { margin: 0 0 6px; font-size: 0.98em; color: #16324f }
+  .card p { margin: 0; font-size: 0.87em; color: #57606a }
+  .swatch { float: left; width: 54px; height: 54px; margin: 0 14px 8px 0;
+            border: 3px solid rgba(0, 0, 0, 0.12) }
+  table { border-collapse: collapse; width: 100%; font-size: 0.9em }
+  th, td { border: 1px solid #d8dee4; padding: 6px 10px; text-align: left }
+  thead th { background: #eef2f6; color: #16324f }
+  tbody tr:nth-child(even) td { background: #fafbfc }
+  td.numeric { text-align: right; font-family: monospace }
+  blockquote { margin: 14px 0; padding: 8px 18px; border-left: 4px solid #c9d4de;
+               color: #57606a; font-style: italic }
+  ol li { margin: 3px 0 } ul ul { margin: 2px 0 }
+  .note { position: relative; background: #fff8e1; border: 1px solid #f0dca0;
+          padding: 12px 14px 12px 52px; margin: 16px 0 }
+  .tag { position: absolute; left: 12px; top: 12px; background: #f0b429;
+         color: #4a3200; font-size: 0.72em; font-weight: bold; padding: 2px 6px }
+  footer { margin-top: 26px; padding: 14px 34px; background: #16324f;
+           color: #9fb4cc; font-size: 0.82em }
+  a { color: #0b5cd5 }
+  @media (max-width: 500px) { .page { width: auto } .card { width: auto } }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <h1>Kitchen sink</h1>
+    <p>Every layout feature Mote implements, on one page.</p>
+  </header>
+
+  <section>
+    <h2>Inline formatting</h2>
+    <p>Text flows into line boxes and wraps at the measured width. It can be
+      <b>bold</b>, <i>italic</i>, <b><i>both at once</i></b>, <code>monospaced</code>,
+      <small>small</small>, <big>big</big>, x<sup>2</sup> or H<sub>2</sub>O,
+      <a href="https://example.com/">a link</a>, <s>struck through</s> or
+      <mark>highlighted</mark> &mdash; and entities such as &copy; &rarr;
+      &hellip; &euro; &amp; &frac12; resolve through the full HTML5 table.</p>
+
+    <h2>Floats and shrink-to-fit</h2>
+    <div class="swatch" style="background:#16324f"></div>
+    <p>A floated box is taken out of the normal flow and the line boxes beside
+      it are shortened to make room, which is what pushes this paragraph to the
+      right of the square. When the float is taller than the text next to it,
+      following content keeps flowing around it until the float's bottom edge
+      is passed.</p>
+
+    <h2>Inline-block</h2>
+    <div class="cards">
+      <div class="card"><h3>Shrink to fit</h3>
+        <p>An inline-block is sized by its own content, then placed on a line
+          like a very large word.</p></div>
+      <div class="card"><h3>Vertical align</h3>
+        <p>Its baseline is the baseline of its last line box, unless
+          <code>vertical-align</code> says otherwise.</p></div>
+      <div class="card"><h3>Wrapping</h3>
+        <p>When the next one will not fit, the line breaks and it starts
+          the row below.</p></div>
+    </div>
+
+    <h2>Tables</h2>
+    <table>
+      <thead><tr><th>Stage</th><th>Module</th><th class="numeric">Lines</th>
+        <th>What it produces</th></tr></thead>
+      <tbody>
+        <tr><td>Fetch</td><td><code>http.py</code></td><td class="numeric">560</td>
+            <td>bytes, headers, cookies</td></tr>
+        <tr><td>Parse</td><td><code>htmlparse.py</code></td><td class="numeric">520</td>
+            <td>a DOM tree</td></tr>
+        <tr><td>Style</td><td><code>style.py</code></td><td class="numeric">640</td>
+            <td>computed values per element</td></tr>
+        <tr><td>Layout</td><td><code>layout.py</code></td><td class="numeric">1180</td>
+            <td>positioned boxes and line boxes</td></tr>
+        <tr><td colspan="3"><b>Paint</b> &mdash; <code>paint.py</code></td>
+            <td>a display list</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Lists</h2>
+    <ol>
+      <li>Ordered items count themselves.
+        <ul><li>Nested unordered lists switch marker</li>
+            <li>and indent by the padding the UA stylesheet sets</li></ul></li>
+      <li>Markers sit outside the content box by default.</li>
+      <li>Wrapped item text lines up under the first line, not under the
+        marker, because the marker is placed in the margin.</li>
+    </ol>
+
+    <h2>Preformatted text</h2>
+<pre>$ python3 -m mote --text https://example.com/
+$ python3 -m mote --svg page.svg --full-height https://example.com/
+    whitespace   is   preserved   here</pre>
+
+    <blockquote>A browser is a program that turns bytes into boxes, and boxes
+      into pixels. Everything else is detail.</blockquote>
+
+    <div class="note"><span class="tag">POS</span>
+      This box is positioned <code>relative</code>, and the tag inside it is
+      <code>absolute</code> against it &mdash; so the tag stays put no matter
+      how the text reflows.</div>
+  </section>
+  <footer>Rendered by Mote, which has no rendering engine underneath it.</footer>
+</div>
+</body>
+</html>

@@ -41,6 +41,7 @@ class Page:
         self.load_time = 0.0
         self.stylesheet_count = 0
         self.image_count = 0
+        self.canvas_color = None
         self.links = []
 
     @property
@@ -171,8 +172,16 @@ class Engine:
             page.display_list = []
             page.width, page.height = self.width, 0.0
             return page
-        page.display_list = build_display_list(page.root_box)
-        _propagate_canvas_background(page, self.width, self.height)
+        source, canvas_color = _canvas_background(document, page.styles)
+        page.display_list = build_display_list(
+            page.root_box, skip_background=(id(source),) if source else ())
+        if canvas_color is not None:
+            from .paint import DrawRect
+            bottom = max(self.height, page.root_box.margin_box[1] +
+                         page.root_box.margin_box[3])
+            page.display_list.insert(
+                0, DrawRect((0.0, 0.0, self.width, bottom), canvas_color))
+        page.canvas_color = canvas_color
         page.width = self.width
         page.height = max(document_height(page.display_list, page.root_box),
                           self.height)
@@ -232,34 +241,25 @@ class Engine:
         return bitmap
 
 
-def _propagate_canvas_background(page, width, height):
-    """The root element's background paints the whole canvas, not just its box.
+def _canvas_background(document, styles):
+    """Which element's background paints the canvas, and in what colour.
 
-    If <html> has none of its own, <body>'s background is used instead -- the
-    rule that stops a page with a coloured body showing white margins.
+    The root element's background covers the whole canvas rather than just its
+    own box; when <html> has none, <body>'s is used instead.  That is the rule
+    that stops a page with a coloured body showing white down the margins.
     """
-    from .paint import DrawRect
     from .values import TRANSPARENT
 
-    document = page.document
-    root = document.document_element
-    body = document.body()
-    color = None
-    for element in (root, body):
+    for element in (document.document_element, document.body()):
         if element is None:
             continue
-        style = page.styles.get(id(element))
+        style = styles.get(id(element))
         if style is None:
             continue
-        candidate = style.color_of("background-color", TRANSPARENT)
-        if candidate is not None and candidate[3] > 0:
-            color = candidate
-            break
-    if color is None:
-        return
-    bottom = max(height, page.root_box.margin_box[1] +
-                 page.root_box.margin_box[3])
-    page.display_list.insert(0, DrawRect((0.0, 0.0, width, bottom), color))
+        color = style.color_of("background-color", TRANSPARENT)
+        if color is not None and color[3] > 0:
+            return element, color
+    return None, None
 
 
 def _base_url(document, fallback):

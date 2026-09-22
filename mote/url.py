@@ -10,6 +10,11 @@ import string
 
 DEFAULT_PORTS = {"http": 80, "https": 443, "ws": 80, "wss": 443, "ftp": 21}
 
+# Schemes the address bar recognises.  Anything else with a colon in it is
+# far more likely to be "localhost:8000" than a URL in an unknown scheme.
+KNOWN_SCHEMES = {"http", "https", "file", "data", "about", "view-source",
+                 "ftp", "mailto", "javascript", "blob", "ws", "wss"}
+
 # Schemes whose payload is opaque -- there is no authority and no path to
 # normalise, so everything after the colon is kept verbatim.
 OPAQUE_SCHEMES = {"data", "about", "javascript", "mailto", "blob"}
@@ -142,7 +147,8 @@ class URL:
         text = text.strip()
         if not text:
             raise URLError("empty address")
-        if _SCHEME_RE.match(text):
+        match = _SCHEME_RE.match(text)
+        if match and match.group(1).lower() in KNOWN_SCHEMES:
             return cls.parse(text)
         if text.startswith("/") or text.startswith("./") or text.startswith("~"):
             import os

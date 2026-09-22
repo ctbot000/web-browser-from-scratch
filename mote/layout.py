@@ -18,7 +18,8 @@ BLOCK_DISPLAYS = {"block", "list-item", "flow-root", "table", "flex", "grid",
                   "table-column-group"}
 INLINE_LEVEL = {"inline", "inline-block", "inline-table", "inline-flex"}
 REPLACED_TAGS = {"img", "input", "textarea", "select", "button", "iframe",
-                 "video", "canvas", "svg", "embed", "object", "audio"}
+                 "video", "canvas", "svg", "embed", "object", "audio",
+                 "br"}
 TABLE_INTERNAL = {"table-row-group", "table-header-group", "table-footer-group",
                   "table-row", "table-cell", "table-column",
                   "table-column-group", "table-caption"}
@@ -285,7 +286,14 @@ class BlockBox(Box):
         return self.parent is None
 
     def has_block_children(self):
-        return any(isinstance(c, BlockBox) or isinstance(c, TableBox)
+        """Whether this container formats its children as blocks.
+
+        An inline-block child is built as a BlockBox because it lays itself
+        out like one, but it participates in its parent as a very large word,
+        so it must not put the parent into block formatting.
+        """
+        return any(isinstance(c, (BlockBox, TableBox)) and
+                   c.style.display not in INLINE_LEVEL
                    for c in self.children)
 
     # -- layout -----------------------------------------------------------
@@ -697,12 +705,21 @@ def _transform(text, style):
     return text
 
 
-def collect_inline_items(box, context, items=None, owner=None):
+def collect_inline_items(box, context, items=None, owner=None,
+                         container=None):
     if items is None:
         items = []
+    if container is None:
+        container = box
     for child in box.children:
         style = child.style
         if style.keyword("display") == "none":
+            continue
+        # Text nodes inherit their parent's computed style, so check for a
+        # real element before treating one as out of flow.
+        if child.element is not None and \
+                style.keyword("position") in ("absolute", "fixed"):
+            context.deferred_absolutes.append((child, container))
             continue
         if isinstance(child, TextBox):
             _collect_text(child, context, items, owner)
@@ -716,7 +733,7 @@ def collect_inline_items(box, context, items=None, owner=None):
                 "atomic", box=child, style=style,
                 width=child.margin_box[2], element=child.element))
         elif isinstance(child, InlineBox):
-            collect_inline_items(child, context, items, child)
+            collect_inline_items(child, context, items, child, container)
         elif isinstance(child, BlockBox):
             if child.style.display in ("inline-block", "inline-table"):
                 child.resolve_edges(context, box.width)

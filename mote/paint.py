@@ -96,8 +96,11 @@ def _fmt(rect):
 
 
 class Painter:
-    def __init__(self):
+    def __init__(self, skip_background=()):
         self.commands = []
+        # The element whose background was propagated to the canvas must not
+        # paint it a second time on its own box.
+        self.skip_background = set(skip_background)
 
     def paint(self, box):
         self._paint_box(box)
@@ -128,6 +131,8 @@ class Painter:
             self._paint_box(child)
 
     def _paint_background(self, box):
+        if box.element is not None and id(box.element) in self.skip_background:
+            return
         color = box.style.color_of("background-color", TRANSPARENT)
         if color is None or color[3] <= 0:
             return
@@ -202,8 +207,8 @@ class Painter:
             (fragment.x, fragment.y, fragment.width, fragment.height), color))
 
 
-def build_display_list(root_box):
-    return Painter().paint(root_box)
+def build_display_list(root_box, skip_background=()):
+    return Painter(skip_background).paint(root_box)
 
 
 def document_height(commands, root_box=None):

@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1811" viewBox="0 0 900 1811">
+<title>Mote — kitchen sink</title>
+<rect width="100%" height="100%" fill="#f4f6f8"/>
+<rect x="0.00" y="0.00" width="900.00" height="1812.00" fill="#f4f6f8"/>
+<rect x="40.00" y="0.00" width="820.00" height="1812.00" fill="#ffffff"/>
+<rect x="860.00" y="0.00" width="1.00" height="1812.00" fill="#e2e6ea"/><rect x="39.00" y="0.00" width="1.00" height="1812.00" fill="#e2e6ea"/>
+<rect x="40.00" y="0.00" width="820.00" height="122.98" fill="#16324f"/>
+<text x="74.00" y="53.88" font-family="Helvetica, Arial, sans-serif" font-size="27.20" font-weight="bold" fill="#ffffff" xml:space="preserve">Kitchen</text>
+<text x="179.64" y="53.88" font-family="Helvetica, Arial, sans-serif" font-size="27.20" font-weight="bold" fill="#ffffff" xml:space="preserve">sink</text>
+<text x="74.00" y="89.25" font-family="Helvetica, Arial, sans-serif" font-size="14.72" fill="#9fb4cc" xml:space="preserve">Every</text>
+<text x="115.72" y="89.25" font-family="Helvetica, Arial, sans-serif" font-size="14.72" fill="#9fb4cc" xml:space="preserve">layout</text>
+<text x="159.08" y="89.25" font-family="Helvetica, Arial, sans-serif" font-size="14.72" fill="#9fb4cc" xml:space="preserve">feature</text>
+<text x="209.00" y="89.25" font-family="Helvetica, Arial, sans-serif" font-size="14.72" fill="#9fb4cc" xml:space="preserve">Mote</text>
+<text x="245.81" y="89.25" font-family="Helvetica, Arial, sans-serif" font-size="14.72" fill="#9fb4cc" xml:space="preserve">implements,</text>
+<text x="329.24" y="89.25" font-family="Helvetica, Arial, sans-serif" font-size="14.72" fill="#9fb4cc" xml:space="preserve">on</text>
+<text x="349.71" y="89.25" font-family="Helvetica, Arial, sans-serif" font-size="14.72" fill="#9fb4cc" xml:space="preserve">one</text>
+<text x="378.35" y="89.25" font-family="Helvetica, Arial, sans-serif" font-size="14.72" fill="#9fb4cc" xml:space="preserve">page.</text>
+<rect x="74.00" y="186.50" width="752.00" height="2.00" fill="#e2e6ea"/>
+<text x="74.00" y="171.84" font-family="Helvetica, Arial, sans-serif" font-size="18.40" font-weight="bold" fill="#16324f" xml:space="preserve">Inline</text>
+<text x="126.77" y="171.84" font-family="Helvetica, Arial, sans-serif" font-size="18.40" font-weight="bold" fill="#16324f" xml:space="preserve">formatting</text>
+<text x="74.00" y="214.90" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">Text</text>
+<text x="109.57" y="214.90" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">flows</text>
+<text x="150.46" y="214.90" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">into</text>
+<text x="180.70" y="214.90" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">line</text>
+<text x="210.05" y="214.90" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">boxes</text>
+<text x="257.18" y="214.90" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">and</text>
+<text x="288.32" y="214.90" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">wraps</text>
+<text x="335.44" y="214.90" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">at</text>
+<text x="353.23" y="214.90" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">the</text>
+<text x="379.92" y="214.90" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">measured</text>
+<text x="455.50" y="214.90" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">width.</text>
+<text x="501.74" y="214.90" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">It</text>
+<text x="515.09" y="214.90" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">can</text>
+<text x="545.33" y="214.90" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">be</text>
+<text x="567.57" y="214.90" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="bold" fill="#24292f" xml:space="preserve">bold</text>
+<text x="600.08" y="214.90" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">,</text>
+<text x="608.97" y="214.90" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-style="italic" fill="#24292f" xml:space="preserve">italic</text>
+<text x="640.97" y="214.90" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">,</text>
+<text x="649.87" y="214.90" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="bold" font-style="italic" fill="#24292f" xml:space="preserve">both</text>
+<text x="688.12" y="214.90" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="bold" font-style="italic" fill="#24292f" xml:space="preserve">at</text>
+<text x="707.25" y="214.90" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="bold" font-style="italic" fill="#24292f" xml:space="preserve">once</text>
+<text x="744.54" y="214.90" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">,</text>
+<rect x="74.00" y="231.25" width="86.40" height="14.40" fill="#f2f4f7"/>
+<text x="74.00" y="242.48" font-family="'SF Mono', Menlo, Consolas, monospace" font-size="14.40" fill="#9a2c2c" xml:space="preserve">monospaced</text>
+<text x="160.40" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">,</text>
+<text x="169.30" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="13.28" fill="#24292f" xml:space="preserve">small</text>
+<text x="200.28" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">,</text>
+<text x="209.17" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="18.72" fill="#24292f" xml:space="preserve">big</text>
+<text x="234.15" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">,</text>
+<text x="243.04" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">x</text>
+<text x="251.04" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="13.28" fill="#24292f" xml:space="preserve">2</text>
+<text x="262.87" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">or</text>
+<text x="281.55" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">H</text>
+<text x="293.10" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="13.28" fill="#24292f" xml:space="preserve">2</text>
+<text x="300.48" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">O,</text>
+<text x="321.83" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#0b5cd5" xml:space="preserve">a</text>
+<rect x="321.83" y="243.98" width="8.90" height="1.14" fill="#0b5cd5"/>
+<text x="335.17" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#0b5cd5" xml:space="preserve">link</text>
+<rect x="335.17" y="243.98" width="24.00" height="1.14" fill="#0b5cd5"/>
+<text x="359.17" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">,</text>
+<text x="368.07" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">struck</text>
+<rect x="368.07" y="238.64" width="42.67" height="1.14" fill="#24292f"/>
+<text x="415.19" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">through</text>
+<rect x="415.19" y="238.64" width="54.26" height="1.14" fill="#24292f"/>
+<text x="473.89" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">or</text>
+<rect x="492.56" y="230.48" width="77.38" height="16.00" fill="#ffff00"/>
+<text x="492.56" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#000000" xml:space="preserve">highlighted</text>
+<text x="574.39" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">—</text>
+<text x="586.83" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">and</text>
+<text x="617.97" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">entities</text>
+<text x="673.11" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">such</text>
+<text x="711.35" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">as</text>
+<text x="732.69" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">©</text>
+<text x="745.14" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">→</text>
+<text x="757.59" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">…</text>
+<text x="770.03" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">€</text>
+<text x="782.48" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">&amp;</text>
+<text x="797.60" y="242.48" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">½</text>
+<text x="74.00" y="268.71" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">resolve</text>
+<text x="130.02" y="268.71" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">through</text>
+<text x="188.72" y="268.71" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">the</text>
+<text x="215.41" y="268.71" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">full</text>
+<text x="240.30" y="268.71" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">HTML5</text>
+<text x="297.20" y="268.71" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">table.</text>
+<rect x="74.00" y="340.63" width="752.00" height="2.00" fill="#e2e6ea"/>
+<text x="74.00" y="325.97" font-family="Helvetica, Arial, sans-serif" font-size="18.40" font-weight="bold" fill="#16324f" xml:space="preserve">Floats</text>
+<text x="133.36" y="325.97" font-family="Helvetica, Arial, sans-serif" font-size="18.40" font-weight="bold" fill="#16324f" xml:space="preserve">and</text>
+<text x="171.85" y="325.97" font-family="Helvetica, Arial, sans-serif" font-size="18.40" font-weight="bold" fill="#16324f" xml:space="preserve">shrink-to-fit</text>
+<rect x="77.00" y="355.63" width="54.00" height="54.00" fill="#16324f"/>
+<rect x="74.00" y="352.63" width="60.00" height="3.00" fill="#000000"/><rect x="131.00" y="352.63" width="3.00" height="60.00" fill="#000000"/><rect x="74.00" y="409.63" width="60.00" height="3.00" fill="#000000"/><rect x="74.00" y="352.63" width="3.00" height="60.00" fill="#000000"/>
+<text x="148.00" y="369.03" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">A</text>
+<text x="163.12" y="369.03" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">floated</text>
+<text x="215.60" y="369.03" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">box</text>
+<text x="245.84" y="369.03" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">is</text>
+<text x="261.84" y="369.03" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">taken</text>
+<text x="305.42" y="369.03" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">out</text>
+<text x="332.11" y="369.03" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">of</text>
+<text x="349.90" y="369.03" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">the</text>
+<text x="376.59" y="369.03" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">normal</text>
+<text x="429.94" y="369.03" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">flow</text>
+<text x="462.83" y="369.03" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">and</text>
+<text x="493.97" y="369.03" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">the</text>
+<text x="520.66" y="369.03" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">line</text>
+<text x="550.00" y="369.03" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">boxes</text>
+<text x="597.14" y="369.03" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">beside</text>
+<text x="648.72" y="369.03" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">it</text>
+<text x="661.17" y="369.03" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">are</text>
+<text x="688.74" y="369.03" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">shortened</text>
+<text x="764.34" y="369.03" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">to</text>
+<text x="782.13" y="369.03" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">make</text>
+<text x="148.00" y="393.83" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">room,</text>
+<text x="193.34" y="393.83" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">which</text>
+<text x="238.69" y="393.83" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">is</text>
+<text x="254.69" y="393.83" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">what</text>
+<text x="292.93" y="393.83" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">pushes</text>
+<text x="348.96" y="393.83" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">this</text>
+<text x="378.30" y="393.83" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">paragraph</text>
+<text x="455.68" y="393.83" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">to</text>
+<text x="473.47" y="393.83" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">the</text>
+<text x="500.16" y="393.83" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">right</text>
+<text x="535.73" y="393.83" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">of</text>
+<text x="553.52" y="393.83" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">the</text>
+<text x="580.21" y="393.83" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">square.</text>
+<text x="638.02" y="393.83" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">When</text>
+<text x="684.26" y="393.83" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">the</text>
+<text x="710.94" y="393.83" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">float</text>
+<text x="745.63" y="393.83" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">is</text>
+<text x="761.63" y="393.83" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">taller</text>
+<text x="148.00" y="418.63" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">than</text>
+<text x="183.58" y="418.63" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">the</text>
+<text x="210.27" y="418.63" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">text</text>
+<text x="240.51" y="418.63" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">next</text>
+<text x="275.20" y="418.63" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">to</text>
+<text x="292.99" y="418.63" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">it,</text>
+<text x="309.89" y="418.63" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">following</text>
+<text x="376.58" y="418.63" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">content</text>
+<text x="433.50" y="418.63" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">keeps</text>
+<text x="480.64" y="418.63" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">flowing</text>
+<text x="534.88" y="418.63" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">around</text>
+<text x="589.14" y="418.63" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">it</text>
+<text x="601.58" y="418.63" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">until</text>
+<text x="635.38" y="418.63" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">the</text>
+<text x="662.06" y="418.63" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">float's</text>
+<text x="707.81" y="418.63" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">bottom</text>
+<text x="761.17" y="418.63" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">edge</text>
+<text x="801.20" y="418.63" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">is</text>
+<text x="74.00" y="443.43" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">passed.</text>
+<rect x="74.00" y="515.35" width="752.00" height="2.00" fill="#e2e6ea"/>
+<text x="74.00" y="500.69" font-family="Helvetica, Arial, sans-serif" font-size="18.40" font-weight="bold" fill="#16324f" xml:space="preserve">Inline-block</text>
+<rect x="75.00" y="528.35" width="264.00" height="123.03" fill="#fbfcfd"/>
+<rect x="74.00" y="527.35" width="266.00" height="1.00" fill="#dfe4ea"/><rect x="339.00" y="527.35" width="1.00" height="125.03" fill="#dfe4ea"/><rect x="74.00" y="651.38" width="266.00" height="1.00" fill="#dfe4ea"/><rect x="74.00" y="527.35" width="1.00" height="125.03" fill="#dfe4ea"/>
+<text x="91.00" y="558.42" font-family="Helvetica, Arial, sans-serif" font-size="15.68" font-weight="bold" fill="#16324f" xml:space="preserve">Shrink</text>
+<text x="143.46" y="558.42" font-family="Helvetica, Arial, sans-serif" font-size="15.68" font-weight="bold" fill="#16324f" xml:space="preserve">to</text>
+<text x="162.20" y="558.42" font-family="Helvetica, Arial, sans-serif" font-size="15.68" font-weight="bold" fill="#16324f" xml:space="preserve">fit</text>
+<text x="91.00" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">An</text>
+<text x="111.89" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">inline-block</text>
+<text x="185.38" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">is</text>
+<text x="199.30" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">sized</text>
+<text x="235.66" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">by</text>
+<text x="254.23" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">its</text>
+<text x="272.02" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">own</text>
+<text x="91.00" y="608.50" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">content,</text>
+<text x="144.40" y="608.50" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">then</text>
+<text x="175.36" y="608.50" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">placed</text>
+<text x="220.23" y="608.50" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">on</text>
+<text x="239.58" y="608.50" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">a</text>
+<text x="251.19" y="608.50" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">line</text>
+<text x="276.72" y="608.50" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">like</text>
+<text x="301.47" y="608.50" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">a</text>
+<text x="91.00" y="630.08" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">very</text>
+<text x="121.16" y="630.08" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">large</text>
+<text x="155.98" y="630.08" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">word.</text>
+<rect x="361.45" y="528.35" width="264.00" height="123.03" fill="#fbfcfd"/>
+<rect x="360.45" y="527.35" width="266.00" height="1.00" fill="#dfe4ea"/><rect x="625.45" y="527.35" width="1.00" height="125.03" fill="#dfe4ea"/><rect x="360.45" y="651.38" width="266.00" height="1.00" fill="#dfe4ea"/><rect x="360.45" y="527.35" width="1.00" height="125.03" fill="#dfe4ea"/>
+<text x="377.45" y="558.42" font-family="Helvetica, Arial, sans-serif" font-size="15.68" font-weight="bold" fill="#16324f" xml:space="preserve">Vertical</text>
+<text x="438.33" y="558.42" font-family="Helvetica, Arial, sans-serif" font-size="15.68" font-weight="bold" fill="#16324f" xml:space="preserve">align</text>
+<text x="377.45" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">Its</text>
+<text x="396.02" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">baseline</text>
+<text x="451.73" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">is</text>
+<text x="465.65" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">the</text>
+<text x="488.86" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">baseline</text>
+<text x="544.57" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">of</text>
+<text x="560.05" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">its</text>
+<text x="577.84" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">last</text>
+<text x="377.45" y="608.50" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">line</text>
+<text x="402.98" y="608.50" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">box,</text>
+<text x="433.16" y="608.50" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">unless</text>
+<rect x="477.25" y="598.73" width="105.24" height="12.53" fill="#f2f4f7"/>
+<text x="477.25" y="608.50" font-family="'SF Mono', Menlo, Consolas, monospace" font-size="12.53" fill="#9a2c2c" xml:space="preserve">vertical-align</text>
+<text x="377.45" y="630.08" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">says</text>
+<text x="409.94" y="630.08" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">otherwise.</text>
+<rect x="75.00" y="675.78" width="264.00" height="101.46" fill="#fbfcfd"/>
+<rect x="74.00" y="674.78" width="266.00" height="1.00" fill="#dfe4ea"/><rect x="339.00" y="674.78" width="1.00" height="103.46" fill="#dfe4ea"/><rect x="74.00" y="777.24" width="266.00" height="1.00" fill="#dfe4ea"/><rect x="74.00" y="674.78" width="1.00" height="103.46" fill="#dfe4ea"/>
+<text x="91.00" y="705.86" font-family="Helvetica, Arial, sans-serif" font-size="15.68" font-weight="bold" fill="#16324f" xml:space="preserve">Wrapping</text>
+<text x="91.00" y="734.36" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">When</text>
+<text x="131.23" y="734.36" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">the</text>
+<text x="154.45" y="734.36" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">next</text>
+<text x="184.63" y="734.36" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">one</text>
+<text x="211.71" y="734.36" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">will</text>
+<text x="234.90" y="734.36" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">not</text>
+<text x="258.12" y="734.36" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">fit,</text>
+<text x="276.69" y="734.36" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">the</text>
+<text x="299.91" y="734.36" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">line</text>
+<text x="91.00" y="755.93" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">breaks</text>
+<text x="136.64" y="755.93" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">and</text>
+<text x="163.73" y="755.93" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">it</text>
+<text x="174.56" y="755.93" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">starts</text>
+<text x="212.47" y="755.93" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">the</text>
+<text x="235.68" y="755.93" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">row</text>
+<text x="261.98" y="755.93" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">below.</text>
+<rect x="75.00" y="528.35" width="264.00" height="123.03" fill="#fbfcfd"/>
+<rect x="74.00" y="527.35" width="266.00" height="1.00" fill="#dfe4ea"/><rect x="339.00" y="527.35" width="1.00" height="125.03" fill="#dfe4ea"/><rect x="74.00" y="651.38" width="266.00" height="1.00" fill="#dfe4ea"/><rect x="74.00" y="527.35" width="1.00" height="125.03" fill="#dfe4ea"/>
+<text x="91.00" y="558.42" font-family="Helvetica, Arial, sans-serif" font-size="15.68" font-weight="bold" fill="#16324f" xml:space="preserve">Shrink</text>
+<text x="143.46" y="558.42" font-family="Helvetica, Arial, sans-serif" font-size="15.68" font-weight="bold" fill="#16324f" xml:space="preserve">to</text>
+<text x="162.20" y="558.42" font-family="Helvetica, Arial, sans-serif" font-size="15.68" font-weight="bold" fill="#16324f" xml:space="preserve">fit</text>
+<text x="91.00" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">An</text>
+<text x="111.89" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">inline-block</text>
+<text x="185.38" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">is</text>
+<text x="199.30" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">sized</text>
+<text x="235.66" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">by</text>
+<text x="254.23" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">its</text>
+<text x="272.02" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">own</text>
+<text x="91.00" y="608.50" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">content,</text>
+<text x="144.40" y="608.50" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">then</text>
+<text x="175.36" y="608.50" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">placed</text>
+<text x="220.23" y="608.50" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">on</text>
+<text x="239.58" y="608.50" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">a</text>
+<text x="251.19" y="608.50" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">line</text>
+<text x="276.72" y="608.50" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">like</text>
+<text x="301.47" y="608.50" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">a</text>
+<text x="91.00" y="630.08" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">very</text>
+<text x="121.16" y="630.08" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">large</text>
+<text x="155.98" y="630.08" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">word.</text>
+<rect x="361.45" y="528.35" width="264.00" height="123.03" fill="#fbfcfd"/>
+<rect x="360.45" y="527.35" width="266.00" height="1.00" fill="#dfe4ea"/><rect x="625.45" y="527.35" width="1.00" height="125.03" fill="#dfe4ea"/><rect x="360.45" y="651.38" width="266.00" height="1.00" fill="#dfe4ea"/><rect x="360.45" y="527.35" width="1.00" height="125.03" fill="#dfe4ea"/>
+<text x="377.45" y="558.42" font-family="Helvetica, Arial, sans-serif" font-size="15.68" font-weight="bold" fill="#16324f" xml:space="preserve">Vertical</text>
+<text x="438.33" y="558.42" font-family="Helvetica, Arial, sans-serif" font-size="15.68" font-weight="bold" fill="#16324f" xml:space="preserve">align</text>
+<text x="377.45" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">Its</text>
+<text x="396.02" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">baseline</text>
+<text x="451.73" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">is</text>
+<text x="465.65" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">the</text>
+<text x="488.86" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">baseline</text>
+<text x="544.57" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">of</text>
+<text x="560.05" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">its</text>
+<text x="577.84" y="586.92" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">last</text>
+<text x="377.45" y="608.50" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">line</text>
+<text x="402.98" y="608.50" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">box,</text>
+<text x="433.16" y="608.50" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">unless</text>
+<rect x="477.25" y="598.73" width="105.24" height="12.53" fill="#f2f4f7"/>
+<text x="477.25" y="608.50" font-family="'SF Mono', Menlo, Consolas, monospace" font-size="12.53" fill="#9a2c2c" xml:space="preserve">vertical-align</text>
+<text x="377.45" y="630.08" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">says</text>
+<text x="409.94" y="630.08" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">otherwise.</text>
+<rect x="75.00" y="675.78" width="264.00" height="101.46" fill="#fbfcfd"/>
+<rect x="74.00" y="674.78" width="266.00" height="1.00" fill="#dfe4ea"/><rect x="339.00" y="674.78" width="1.00" height="103.46" fill="#dfe4ea"/><rect x="74.00" y="777.24" width="266.00" height="1.00" fill="#dfe4ea"/><rect x="74.00" y="674.78" width="1.00" height="103.46" fill="#dfe4ea"/>
+<text x="91.00" y="705.86" font-family="Helvetica, Arial, sans-serif" font-size="15.68" font-weight="bold" fill="#16324f" xml:space="preserve">Wrapping</text>
+<text x="91.00" y="734.36" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">When</text>
+<text x="131.23" y="734.36" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">the</text>
+<text x="154.45" y="734.36" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">next</text>
+<text x="184.63" y="734.36" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">one</text>
+<text x="211.71" y="734.36" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">will</text>
+<text x="234.90" y="734.36" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">not</text>
+<text x="258.12" y="734.36" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">fit,</text>
+<text x="276.69" y="734.36" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">the</text>
+<text x="299.91" y="734.36" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">line</text>
+<text x="91.00" y="755.93" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">breaks</text>
+<text x="136.64" y="755.93" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">and</text>
+<text x="163.73" y="755.93" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">it</text>
+<text x="174.56" y="755.93" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">starts</text>
+<text x="212.47" y="755.93" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">the</text>
+<text x="235.68" y="755.93" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">row</text>
+<text x="261.98" y="755.93" font-family="Helvetica, Arial, sans-serif" font-size="13.92" fill="#57606a" xml:space="preserve">below.</text>
+<rect x="74.00" y="855.76" width="752.00" height="2.00" fill="#e2e6ea"/>
+<text x="74.00" y="841.10" font-family="Helvetica, Arial, sans-serif" font-size="18.40" font-weight="bold" fill="#16324f" xml:space="preserve">Tables</text>
+<rect x="75.00" y="868.76" width="103.16" height="34.32" fill="#eef2f6"/>
+<rect x="74.00" y="867.76" width="105.16" height="1.00" fill="#d8dee4"/><rect x="178.16" y="867.76" width="1.00" height="36.32" fill="#d8dee4"/><rect x="74.00" y="903.08" width="105.16" height="1.00" fill="#d8dee4"/><rect x="74.00" y="867.76" width="1.00" height="36.32" fill="#d8dee4"/>
+<rect x="85.00" y="878.72" width="40.45" height="14.40" fill="#eef2f6"/>
+<text x="85.00" y="889.52" font-family="Helvetica, Arial, sans-serif" font-size="14.40" font-weight="bold" fill="#16324f" xml:space="preserve">Stage</text>
+<rect x="180.16" y="868.76" width="183.90" height="34.32" fill="#eef2f6"/>
+<rect x="179.16" y="867.76" width="185.90" height="1.00" fill="#d8dee4"/><rect x="364.06" y="867.76" width="1.00" height="36.32" fill="#d8dee4"/><rect x="179.16" y="903.08" width="185.90" height="1.00" fill="#d8dee4"/><rect x="179.16" y="867.76" width="1.00" height="36.32" fill="#d8dee4"/>
+<rect x="190.16" y="878.72" width="50.76" height="14.40" fill="#eef2f6"/>
+<text x="190.16" y="889.52" font-family="Helvetica, Arial, sans-serif" font-size="14.40" font-weight="bold" fill="#16324f" xml:space="preserve">Module</text>
+<rect x="366.06" y="868.76" width="93.11" height="34.32" fill="#eef2f6"/>
+<rect x="365.06" y="867.76" width="95.11" height="1.00" fill="#d8dee4"/><rect x="459.18" y="867.76" width="1.00" height="36.32" fill="#d8dee4"/><rect x="365.06" y="903.08" width="95.11" height="1.00" fill="#d8dee4"/><rect x="365.06" y="867.76" width="1.00" height="36.32" fill="#d8dee4"/>
+<rect x="376.06" y="878.72" width="37.00" height="14.40" fill="#eef2f6"/>
+<text x="376.06" y="889.52" font-family="Helvetica, Arial, sans-serif" font-size="14.40" font-weight="bold" fill="#16324f" xml:space="preserve">Lines</text>
+<rect x="461.18" y="868.76" width="363.82" height="34.32" fill="#eef2f6"/>
+<rect x="460.18" y="867.76" width="365.82" height="1.00" fill="#d8dee4"/><rect x="825.00" y="867.76" width="1.00" height="36.32" fill="#d8dee4"/><rect x="460.18" y="903.08" width="365.82" height="1.00" fill="#d8dee4"/><rect x="460.18" y="867.76" width="1.00" height="36.32" fill="#d8dee4"/>
+<rect x="471.18" y="878.72" width="36.13" height="14.40" fill="#eef2f6"/>
+<text x="471.18" y="889.52" font-family="Helvetica, Arial, sans-serif" font-size="14.40" font-weight="bold" fill="#16324f" xml:space="preserve">What</text>
+<rect x="507.31" y="878.72" width="4.30" height="14.40" fill="#eef2f6"/>
+<rect x="511.61" y="878.72" width="7.74" height="14.40" fill="#eef2f6"/>
+<text x="511.61" y="889.52" font-family="Helvetica, Arial, sans-serif" font-size="14.40" font-weight="bold" fill="#16324f" xml:space="preserve">it</text>
+<rect x="519.35" y="878.72" width="4.30" height="14.40" fill="#eef2f6"/>
+<rect x="523.65" y="878.72" width="63.67" height="14.40" fill="#eef2f6"/>
+<text x="523.65" y="889.52" font-family="Helvetica, Arial, sans-serif" font-size="14.40" font-weight="bold" fill="#16324f" xml:space="preserve">produces</text>
+<rect x="74.00" y="904.08" width="105.16" height="1.00" fill="#d8dee4"/><rect x="178.16" y="904.08" width="1.00" height="36.32" fill="#d8dee4"/><rect x="74.00" y="939.40" width="105.16" height="1.00" fill="#d8dee4"/><rect x="74.00" y="904.08" width="1.00" height="36.32" fill="#d8dee4"/>
+<text x="85.00" y="925.84" font-family="Helvetica, Arial, sans-serif" font-size="14.40" fill="#24292f" xml:space="preserve">Fetch</text>
+<rect x="179.16" y="905.20" width="185.90" height="1.00" fill="#d8dee4"/><rect x="364.06" y="905.20" width="1.00" height="34.09" fill="#d8dee4"/><rect x="179.16" y="938.28" width="185.90" height="1.00" fill="#d8dee4"/><rect x="179.16" y="905.20" width="1.00" height="34.09" fill="#d8dee4"/>
+<rect x="190.16" y="915.76" width="54.43" height="12.96" fill="#f2f4f7"/>
+<text x="190.16" y="925.87" font-family="'SF Mono', Menlo, Consolas, monospace" font-size="12.96" fill="#9a2c2c" xml:space="preserve">http.py</text>
+<rect x="365.06" y="904.08" width="95.11" height="1.00" fill="#d8dee4"/><rect x="459.18" y="904.08" width="1.00" height="36.32" fill="#d8dee4"/><rect x="365.06" y="939.40" width="95.11" height="1.00" fill="#d8dee4"/><rect x="365.06" y="904.08" width="1.00" height="36.32" fill="#d8dee4"/>
+<text x="423.26" y="926.27" font-family="'SF Mono', Menlo, Consolas, monospace" font-size="14.40" fill="#24292f" xml:space="preserve">560</text>
+<rect x="460.18" y="904.08" width="365.82" height="1.00" fill="#d8dee4"/><rect x="825.00" y="904.08" width="1.00" height="36.32" fill="#d8dee4"/><rect x="460.18" y="939.40" width="365.82" height="1.00" fill="#d8dee4"/><rect x="460.18" y="904.08" width="1.00" height="36.32" fill="#d8dee4"/>
+<text x="471.18" y="925.84" font-family="Helvetica, Arial, sans-serif" font-size="14.40" fill="#24292f" xml:space="preserve">bytes,</text>
+<text x="513.60" y="925.84" font-family="Helvetica, Arial, sans-serif" font-size="14.40" fill="#24292f" xml:space="preserve">headers,</text>
+<text x="573.63" y="925.84" font-family="Helvetica, Arial, sans-serif" font-size="14.40" fill="#24292f" xml:space="preserve">cookies</text>
+<rect x="75.00" y="941.40" width="103.16" height="34.32" fill="#fafbfc"/>
+<rect x="74.00" y="940.40" width="105.16" height="1.00" fill="#d8dee4"/><rect x="178.16" y="940.40" width="1.00" height="36.32" fill="#d8dee4"/><rect x="74.00" y="975.72" width="105.16" height="1.00" fill="#d8dee4"/><rect x="74.00" y="940.40" width="1.00" height="36.32" fill="#d8dee4"/>
+<rect x="85.00" y="951.36" width="37.61" height="14.40" fill="#fafbfc"/>
+<text x="85.00" y="962.16" font-family="Helvetica, Arial, sans-serif" font-size="14.40" fill="#24292f" xml:space="preserve">Parse</text>
+<rect x="180.16" y="942.52" width="183.90" height="32.09" fill="#fafbfc"/>
+<rect x="179.16" y="941.52" width="185.90" height="1.00" fill="#d8dee4"/><rect x="364.06" y="941.52" width="1.00" height="34.09" fill="#d8dee4"/><rect x="179.16" y="974.60" width="185.90" height="1.00" fill="#d8dee4"/><rect x="179.16" y="941.52" width="1.00" height="34.09" fill="#d8dee4"/>
+<rect x="190.16" y="952.08" width="93.31" height="12.96" fill="#f2f4f7"/>
+<text x="190.16" y="962.19" font-family="'SF Mono', Menlo, Consolas, monospace" font-size="12.96" fill="#9a2c2c" xml:space="preserve">htmlparse.py</text>
+<rect x="366.06" y="941.40" width="93.11" height="34.32" fill="#fafbfc"/>
+<rect x="365.06" y="940.40" width="95.11" height="1.00" fill="#d8dee4"/><rect x="459.18" y="940.40" width="1.00" height="36.32" fill="#d8dee4"/><rect x="365.06" y="975.72" width="95.11" height="1.00" fill="#d8dee4"/><rect x="365.06" y="940.40" width="1.00" height="36.32" fill="#d8dee4"/>
+<rect x="423.26" y="951.36" width="25.92" height="14.40" fill="#fafbfc"/>
+<text x="423.26" y="962.59" font-family="'SF Mono', Menlo, Consolas, monospace" font-size="14.40" fill="#24292f" xml:space="preserve">520</text>
+<rect x="461.18" y="941.40" width="363.82" height="34.32" fill="#fafbfc"/>
+<rect x="460.18" y="940.40" width="365.82" height="1.00" fill="#d8dee4"/><rect x="825.00" y="940.40" width="1.00" height="36.32" fill="#d8dee4"/><rect x="460.18" y="975.72" width="365.82" height="1.00" fill="#d8dee4"/><rect x="460.18" y="940.40" width="1.00" height="36.32" fill="#d8dee4"/>
+<rect x="471.18" y="951.36" width="8.01" height="14.40" fill="#fafbfc"/>
+<text x="471.18" y="962.16" font-family="Helvetica, Arial, sans-serif" font-size="14.40" fill="#24292f" xml:space="preserve">a</text>
+<rect x="479.18" y="951.36" width="4.00" height="14.40" fill="#fafbfc"/>
+<rect x="483.19" y="951.36" width="33.60" height="14.40" fill="#fafbfc"/>
+<text x="483.19" y="962.16" font-family="Helvetica, Arial, sans-serif" font-size="14.40" fill="#24292f" xml:space="preserve">DOM</text>
+<rect x="516.78" y="951.36" width="4.00" height="14.40" fill="#fafbfc"/>
+<rect x="520.79" y="951.36" width="24.81" height="14.40" fill="#fafbfc"/>
+<text x="520.79" y="962.16" font-family="Helvetica, Arial, sans-serif" font-size="14.40" fill="#24292f" xml:space="preserve">tree</text>
+<rect x="74.00" y="976.72" width="105.16" height="1.00" fill="#d8dee4"/><rect x="178.16" y="976.72" width="1.00" height="36.32" fill="#d8dee4"/><rect x="74.00" y="1012.04" width="105.16" height="1.00" fill="#d8dee4"/><rect x="74.00" y="976.72" width="1.00" height="36.32" fill="#d8dee4"/>
+<text x="85.00" y="998.48" font-family="Helvetica, Arial, sans-serif" font-size="14.40" fill="#24292f" xml:space="preserve">Style</text>
+<rect x="179.16" y="977.84" width="185.90" height="1.00" fill="#d8dee4"/><rect x="364.06" y="977.84" width="1.00" height="34.09" fill="#d8dee4"/><rect x="179.16" y="1010.92" width="185.90" height="1.00" fill="#d8dee4"/><rect x="179.16" y="977.84" width="1.00" height="34.09" fill="#d8dee4"/>
+<rect x="190.16" y="988.40" width="62.21" height="12.96" fill="#f2f4f7"/>
+<text x="190.16" y="998.51" font-family="'SF Mono', Menlo, Consolas, monospace" font-size="12.96" fill="#9a2c2c" xml:space="preserve">style.py</text>
+<rect x="365.06" y="976.72" width="95.11" height="1.00" fill="#d8dee4"/><rect x="459.18" y="976.72" width="1.00" height="36.32" fill="#d8dee4"/><rect x="365.06" y="1012.04" width="95.11" height="1.00" fill="#d8dee4"/><rect x="365.06" y="976.72" width="1.00" height="36.32" fill="#d8dee4"/>
+<text x="423.26" y="998.91" font-family="'SF Mono', Menlo, Consolas, monospace" font-size="14.40" fill="#24292f" xml:space="preserve">640</text>
+<rect x="460.18" y="976.72" width="365.82" height="1.00" fill="#d8dee4"/><rect x="825.00" y="976.72" width="1.00" height="36.32" fill="#d8dee4"/><rect x="460.18" y="1012.04" width="365.82" height="1.00" fill="#d8dee4"/><rect x="460.18" y="976.72" width="1.00" height="36.32" fill="#d8dee4"/>
+<text x="471.18" y="998.48" font-family="Helvetica, Arial, sans-serif" font-size="14.40" fill="#24292f" xml:space="preserve">computed</text>
+<text x="538.41" y="998.48" font-family="Helvetica, Arial, sans-serif" font-size="14.40" fill="#24292f" xml:space="preserve">values</text>
+<text x="584.03" y="998.48" font-family="Helvetica, Arial, sans-serif" font-size="14.40" fill="#24292f" xml:space="preserve">per</text>
+<text x="608.84" y="998.48" font-family="Helvetica, Arial, sans-serif" font-size="14.40" fill="#24292f" xml:space="preserve">element</text>
+<rect x="75.00" y="1014.04" width="103.16" height="34.32" fill="#fafbfc"/>
+<rect x="74.00" y="1013.04" width="105.16" height="1.00" fill="#d8dee4"/><rect x="178.16" y="1013.04" width="1.00" height="36.32" fill="#d8dee4"/><rect x="74.00" y="1048.36" width="105.16" height="1.00" fill="#d8dee4"/><rect x="74.00" y="1013.04" width="1.00" height="36.32" fill="#d8dee4"/>
+<rect x="85.00" y="1024.00" width="43.23" height="14.40" fill="#fafbfc"/>
+<text x="85.00" y="1034.80" font-family="Helvetica, Arial, sans-serif" font-size="14.40" fill="#24292f" xml:space="preserve">Layout</text>
+<rect x="180.16" y="1015.16" width="183.90" height="32.09" fill="#fafbfc"/>
+<rect x="179.16" y="1014.16" width="185.90" height="1.00" fill="#d8dee4"/><rect x="364.06" y="1014.16" width="1.00" height="34.09" fill="#d8dee4"/><rect x="179.16" y="1047.24" width="185.90" height="1.00" fill="#d8dee4"/><rect x="179.16" y="1014.16" width="1.00" height="34.09" fill="#d8dee4"/>
+<rect x="190.16" y="1024.72" width="69.98" height="12.96" fill="#f2f4f7"/>
+<text x="190.16" y="1034.83" font-family="'SF Mono', Menlo, Consolas, monospace" font-size="12.96" fill="#9a2c2c" xml:space="preserve">layout.py</text>
+<rect x="366.06" y="1014.04" width="93.11" height="34.32" fill="#fafbfc"/>
+<rect x="365.06" y="1013.04" width="95.11" height="1.00" fill="#d8dee4"/><rect x="459.18" y="1013.04" width="1.00" height="36.32" fill="#d8dee4"/><rect x="365.06" y="1048.36" width="95.11" height="1.00" fill="#d8dee4"/><rect x="365.06" y="1013.04" width="1.00" height="36.32" fill="#d8dee4"/>
+<rect x="414.62" y="1024.00" width="34.56" height="14.40" fill="#fafbfc"/>
+<text x="414.62" y="1035.23" font-family="'SF Mono', Menlo, Consolas, monospace" font-size="14.40" fill="#24292f" xml:space="preserve">1180</text>
+<rect x="461.18" y="1014.04" width="363.82" height="34.32" fill="#fafbfc"/>
+<rect x="460.18" y="1013.04" width="365.82" height="1.00" fill="#d8dee4"/><rect x="825.00" y="1013.04" width="1.00" height="36.32" fill="#d8dee4"/><rect x="460.18" y="1048.36" width="365.82" height="1.00" fill="#d8dee4"/><rect x="460.18" y="1013.04" width="1.00" height="36.32" fill="#d8dee4"/>
+<rect x="471.18" y="1024.00" width="65.64" height="14.40" fill="#fafbfc"/>
+<text x="471.18" y="1034.80" font-family="Helvetica, Arial, sans-serif" font-size="14.40" fill="#24292f" xml:space="preserve">positioned</text>
+<rect x="536.81" y="1024.00" width="4.00" height="14.40" fill="#fafbfc"/>
+<rect x="540.82" y="1024.00" width="38.42" height="14.40" fill="#fafbfc"/>
+<text x="540.82" y="1034.80" font-family="Helvetica, Arial, sans-serif" font-size="14.40" fill="#24292f" xml:space="preserve">boxes</text>
+<rect x="579.24" y="1024.00" width="4.00" height="14.40" fill="#fafbfc"/>
+<rect x="583.24" y="1024.00" width="24.02" height="14.40" fill="#fafbfc"/>
+<text x="583.24" y="1034.80" font-family="Helvetica, Arial, sans-serif" font-size="14.40" fill="#24292f" xml:space="preserve">and</text>
+<rect x="607.26" y="1024.00" width="4.00" height="14.40" fill="#fafbfc"/>
+<rect x="611.26" y="1024.00" width="22.41" height="14.40" fill="#fafbfc"/>
+<text x="611.26" y="1034.80" font-family="Helvetica, Arial, sans-serif" font-size="14.40" fill="#24292f" xml:space="preserve">line</text>
+<rect x="633.67" y="1024.00" width="4.00" height="14.40" fill="#fafbfc"/>
+<rect x="637.67" y="1024.00" width="38.42" height="14.40" fill="#fafbfc"/>
+<text x="637.67" y="1034.80" font-family="Helvetica, Arial, sans-serif" font-size="14.40" fill="#24292f" xml:space="preserve">boxes</text>
+<rect x="74.00" y="1049.36" width="386.18" height="1.00" fill="#d8dee4"/><rect x="459.18" y="1049.36" width="1.00" height="36.32" fill="#d8dee4"/><rect x="74.00" y="1084.68" width="386.18" height="1.00" fill="#d8dee4"/><rect x="74.00" y="1049.36" width="1.00" height="36.32" fill="#d8dee4"/>
+<text x="85.00" y="1071.12" font-family="Helvetica, Arial, sans-serif" font-size="14.40" font-weight="bold" fill="#24292f" xml:space="preserve">Paint</text>
+<text x="124.28" y="1071.12" font-family="Helvetica, Arial, sans-serif" font-size="14.40" fill="#24292f" xml:space="preserve">—</text>
+<rect x="135.49" y="1061.01" width="62.21" height="12.96" fill="#f2f4f7"/>
+<text x="135.49" y="1071.12" font-family="'SF Mono', Menlo, Consolas, monospace" font-size="12.96" fill="#9a2c2c" xml:space="preserve">paint.py</text>
+<rect x="460.18" y="1049.36" width="365.82" height="1.00" fill="#d8dee4"/><rect x="825.00" y="1049.36" width="1.00" height="36.32" fill="#d8dee4"/><rect x="460.18" y="1084.68" width="365.82" height="1.00" fill="#d8dee4"/><rect x="460.18" y="1049.36" width="1.00" height="36.32" fill="#d8dee4"/>
+<text x="471.18" y="1071.12" font-family="Helvetica, Arial, sans-serif" font-size="14.40" fill="#24292f" xml:space="preserve">a</text>
+<text x="483.19" y="1071.12" font-family="Helvetica, Arial, sans-serif" font-size="14.40" fill="#24292f" xml:space="preserve">display</text>
+<text x="532.00" y="1071.12" font-family="Helvetica, Arial, sans-serif" font-size="14.40" fill="#24292f" xml:space="preserve">list</text>
+<rect x="74.00" y="1149.20" width="752.00" height="2.00" fill="#e2e6ea"/>
+<text x="74.00" y="1134.54" font-family="Helvetica, Arial, sans-serif" font-size="18.40" font-weight="bold" fill="#16324f" xml:space="preserve">Lists</text>
+<text x="114.00" y="1189.60" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">Ordered</text>
+<text x="177.14" y="1189.60" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">items</text>
+<text x="219.81" y="1189.60" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">count</text>
+<text x="263.39" y="1189.60" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">themselves.</text>
+<text x="141.55" y="1233.40" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">◦ </text>
+<text x="154.00" y="1233.40" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">Nested</text>
+<text x="209.14" y="1233.40" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">unordered</text>
+<text x="286.51" y="1233.40" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">lists</text>
+<text x="318.51" y="1233.40" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">switch</text>
+<text x="367.41" y="1233.40" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">marker</text>
+<text x="141.55" y="1261.20" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">◦ </text>
+<text x="154.00" y="1261.20" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">and</text>
+<text x="185.14" y="1261.20" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">indent</text>
+<text x="233.17" y="1261.20" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">by</text>
+<text x="254.51" y="1261.20" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">the</text>
+<text x="281.20" y="1261.20" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">padding</text>
+<text x="342.58" y="1261.20" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">the</text>
+<text x="369.26" y="1261.20" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">UA</text>
+<text x="395.94" y="1261.20" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">stylesheet</text>
+<text x="472.42" y="1261.20" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">sets</text>
+<text x="96.21" y="1308.00" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">2. </text>
+<text x="114.00" y="1308.00" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">Markers</text>
+<text x="176.22" y="1308.00" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">sit</text>
+<text x="196.67" y="1308.00" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">outside</text>
+<text x="252.70" y="1308.00" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">the</text>
+<text x="279.39" y="1308.00" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">content</text>
+<text x="336.32" y="1308.00" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">box</text>
+<text x="366.56" y="1308.00" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">by</text>
+<text x="387.90" y="1308.00" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">default.</text>
+<text x="96.21" y="1335.80" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">3. </text>
+<text x="114.00" y="1335.80" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">Wrapped</text>
+<text x="183.36" y="1335.80" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">item</text>
+<text x="218.03" y="1335.80" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">text</text>
+<text x="248.27" y="1335.80" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">lines</text>
+<text x="285.62" y="1335.80" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">up</text>
+<text x="307.86" y="1335.80" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">under</text>
+<text x="353.22" y="1335.80" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">the</text>
+<text x="379.90" y="1335.80" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">first</text>
+<text x="410.13" y="1335.80" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">line,</text>
+<text x="443.92" y="1335.80" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">not</text>
+<text x="470.61" y="1335.80" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">under</text>
+<text x="515.97" y="1335.80" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">the</text>
+<text x="542.66" y="1335.80" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">marker,</text>
+<text x="601.33" y="1335.80" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">because</text>
+<text x="666.26" y="1335.80" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">the</text>
+<text x="692.94" y="1335.80" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">marker</text>
+<text x="747.17" y="1335.80" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">is</text>
+<text x="763.17" y="1335.80" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">placed</text>
+<text x="114.00" y="1360.60" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">in</text>
+<text x="130.90" y="1360.60" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">the</text>
+<text x="157.58" y="1360.60" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">margin.</text>
+<rect x="74.00" y="1435.52" width="752.00" height="2.00" fill="#e2e6ea"/>
+<text x="74.00" y="1420.86" font-family="Helvetica, Arial, sans-serif" font-size="18.40" font-weight="bold" fill="#16324f" xml:space="preserve">Preformatted</text>
+<text x="193.83" y="1420.86" font-family="Helvetica, Arial, sans-serif" font-size="18.40" font-weight="bold" fill="#16324f" xml:space="preserve">text</text>
+<rect x="78.00" y="1451.28" width="748.00" height="87.98" fill="#f2f4f7"/>
+<rect x="74.00" y="1451.28" width="4.00" height="87.98" fill="#16324f"/>
+<rect x="92.00" y="1467.06" width="371.52" height="13.76" fill="#f2f4f7"/>
+<text x="92.00" y="1477.80" font-family="'SF Mono', Menlo, Consolas, monospace" font-size="13.76" fill="#24292f" xml:space="preserve">$ python3 -m mote --text https://example.com/</text>
+<rect x="92.00" y="1488.39" width="553.15" height="13.76" fill="#f2f4f7"/>
+<text x="92.00" y="1499.12" font-family="'SF Mono', Menlo, Consolas, monospace" font-size="13.76" fill="#24292f" xml:space="preserve">$ python3 -m mote --svg page.svg --full-height https://example.com/</text>
+<rect x="92.00" y="1509.72" width="313.73" height="13.76" fill="#f2f4f7"/>
+<text x="92.00" y="1520.45" font-family="'SF Mono', Menlo, Consolas, monospace" font-size="13.76" fill="#24292f" xml:space="preserve">    whitespace   is   preserved   here</text>
+<rect x="74.00" y="1553.26" width="4.00" height="40.80" fill="#c9d4de"/>
+<text x="96.00" y="1577.66" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-style="italic" fill="#57606a" xml:space="preserve">A</text>
+<text x="111.12" y="1577.66" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-style="italic" fill="#57606a" xml:space="preserve">browser</text>
+<text x="172.46" y="1577.66" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-style="italic" fill="#57606a" xml:space="preserve">is</text>
+<text x="188.46" y="1577.66" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-style="italic" fill="#57606a" xml:space="preserve">a</text>
+<text x="201.81" y="1577.66" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-style="italic" fill="#57606a" xml:space="preserve">program</text>
+<text x="265.82" y="1577.66" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-style="italic" fill="#57606a" xml:space="preserve">that</text>
+<text x="296.96" y="1577.66" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-style="italic" fill="#57606a" xml:space="preserve">turns</text>
+<text x="336.98" y="1577.66" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-style="italic" fill="#57606a" xml:space="preserve">bytes</text>
+<text x="379.66" y="1577.66" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-style="italic" fill="#57606a" xml:space="preserve">into</text>
+<text x="409.90" y="1577.66" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-style="italic" fill="#57606a" xml:space="preserve">boxes,</text>
+<text x="461.49" y="1577.66" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-style="italic" fill="#57606a" xml:space="preserve">and</text>
+<text x="492.62" y="1577.66" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-style="italic" fill="#57606a" xml:space="preserve">boxes</text>
+<text x="539.76" y="1577.66" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-style="italic" fill="#57606a" xml:space="preserve">into</text>
+<text x="570.00" y="1577.66" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-style="italic" fill="#57606a" xml:space="preserve">pixels.</text>
+<text x="619.79" y="1577.66" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-style="italic" fill="#57606a" xml:space="preserve">Everything</text>
+<text x="699.82" y="1577.66" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-style="italic" fill="#57606a" xml:space="preserve">else</text>
+<text x="733.62" y="1577.66" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-style="italic" fill="#57606a" xml:space="preserve">is</text>
+<text x="749.62" y="1577.66" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-style="italic" fill="#57606a" xml:space="preserve">detail.</text>
+<rect x="75.00" y="1611.06" width="750.00" height="73.60" fill="#fff8e1"/>
+<rect x="74.00" y="1610.06" width="752.00" height="1.00" fill="#f0dca0"/><rect x="825.00" y="1610.06" width="1.00" height="75.60" fill="#f0dca0"/><rect x="74.00" y="1684.66" width="752.00" height="1.00" fill="#f0dca0"/><rect x="74.00" y="1610.06" width="1.00" height="75.60" fill="#f0dca0"/>
+<rect x="127.00" y="1630.82" width="26.16" height="11.52" fill="#f0b429"/>
+<text x="127.00" y="1639.46" font-family="Helvetica, Arial, sans-serif" font-size="11.52" font-weight="bold" fill="#4a3200" xml:space="preserve">POS</text>
+<rect x="153.16" y="1627.46" width="4.45" height="16.00" fill="#fff8e1"/>
+<rect x="157.60" y="1627.46" width="30.22" height="16.00" fill="#fff8e1"/>
+<text x="157.60" y="1639.46" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">This</text>
+<rect x="187.83" y="1627.46" width="4.45" height="16.00" fill="#fff8e1"/>
+<rect x="192.28" y="1627.46" width="25.79" height="16.00" fill="#fff8e1"/>
+<text x="192.28" y="1639.46" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">box</text>
+<rect x="218.07" y="1627.46" width="4.45" height="16.00" fill="#fff8e1"/>
+<rect x="222.52" y="1627.46" width="11.55" height="16.00" fill="#fff8e1"/>
+<text x="222.52" y="1639.46" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">is</text>
+<rect x="234.07" y="1627.46" width="4.45" height="16.00" fill="#fff8e1"/>
+<rect x="238.52" y="1627.46" width="72.93" height="16.00" fill="#fff8e1"/>
+<text x="238.52" y="1639.46" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">positioned</text>
+<rect x="311.44" y="1627.46" width="4.45" height="16.00" fill="#fff8e1"/>
+<rect x="315.89" y="1628.23" width="69.12" height="14.40" fill="#f2f4f7"/>
+<text x="315.89" y="1639.46" font-family="'SF Mono', Menlo, Consolas, monospace" font-size="14.40" fill="#9a2c2c" xml:space="preserve">relative</text>
+<rect x="385.01" y="1627.46" width="4.45" height="16.00" fill="#fff8e1"/>
+<text x="385.01" y="1639.46" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">,</text>
+<rect x="389.46" y="1627.46" width="4.45" height="16.00" fill="#fff8e1"/>
+<rect x="393.91" y="1627.46" width="26.69" height="16.00" fill="#fff8e1"/>
+<text x="393.91" y="1639.46" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">and</text>
+<rect x="420.60" y="1627.46" width="4.45" height="16.00" fill="#fff8e1"/>
+<rect x="425.04" y="1627.46" width="22.24" height="16.00" fill="#fff8e1"/>
+<text x="425.04" y="1639.46" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">the</text>
+<rect x="447.28" y="1627.46" width="4.45" height="16.00" fill="#fff8e1"/>
+<rect x="451.73" y="1627.46" width="22.24" height="16.00" fill="#fff8e1"/>
+<text x="451.73" y="1639.46" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">tag</text>
+<rect x="473.97" y="1627.46" width="4.45" height="16.00" fill="#fff8e1"/>
+<rect x="478.42" y="1627.46" width="41.79" height="16.00" fill="#fff8e1"/>
+<text x="478.42" y="1639.46" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">inside</text>
+<rect x="520.21" y="1627.46" width="4.45" height="16.00" fill="#fff8e1"/>
+<rect x="524.66" y="1627.46" width="8.00" height="16.00" fill="#fff8e1"/>
+<text x="524.66" y="1639.46" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">it</text>
+<rect x="532.66" y="1627.46" width="4.45" height="16.00" fill="#fff8e1"/>
+<rect x="537.11" y="1627.46" width="11.55" height="16.00" fill="#fff8e1"/>
+<text x="537.11" y="1639.46" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">is</text>
+<rect x="548.66" y="1627.46" width="4.45" height="16.00" fill="#fff8e1"/>
+<rect x="553.11" y="1628.23" width="69.12" height="14.40" fill="#f2f4f7"/>
+<text x="553.11" y="1639.46" font-family="'SF Mono', Menlo, Consolas, monospace" font-size="14.40" fill="#9a2c2c" xml:space="preserve">absolute</text>
+<rect x="622.23" y="1627.46" width="4.45" height="16.00" fill="#fff8e1"/>
+<rect x="626.68" y="1627.46" width="51.58" height="16.00" fill="#fff8e1"/>
+<text x="626.68" y="1639.46" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">against</text>
+<rect x="678.26" y="1627.46" width="4.45" height="16.00" fill="#fff8e1"/>
+<rect x="682.71" y="1627.46" width="8.00" height="16.00" fill="#fff8e1"/>
+<text x="682.71" y="1639.46" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">it</text>
+<rect x="690.71" y="1627.46" width="4.45" height="16.00" fill="#fff8e1"/>
+<rect x="695.16" y="1627.46" width="8.00" height="16.00" fill="#fff8e1"/>
+<text x="695.16" y="1639.46" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">—</text>
+<rect x="703.16" y="1627.46" width="4.45" height="16.00" fill="#fff8e1"/>
+<rect x="707.60" y="1627.46" width="16.90" height="16.00" fill="#fff8e1"/>
+<text x="707.60" y="1639.46" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">so</text>
+<rect x="724.50" y="1627.46" width="4.45" height="16.00" fill="#fff8e1"/>
+<rect x="728.95" y="1627.46" width="22.24" height="16.00" fill="#fff8e1"/>
+<text x="728.95" y="1639.46" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">the</text>
+<rect x="751.19" y="1627.46" width="4.45" height="16.00" fill="#fff8e1"/>
+<rect x="755.64" y="1627.46" width="22.24" height="16.00" fill="#fff8e1"/>
+<text x="755.64" y="1639.46" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">tag</text>
+<rect x="127.00" y="1652.26" width="37.34" height="16.00" fill="#fff8e1"/>
+<text x="127.00" y="1664.26" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">stays</text>
+<rect x="164.34" y="1652.26" width="4.45" height="16.00" fill="#fff8e1"/>
+<rect x="168.79" y="1652.26" width="22.24" height="16.00" fill="#fff8e1"/>
+<text x="168.79" y="1664.26" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">put</text>
+<rect x="191.03" y="1652.26" width="4.45" height="16.00" fill="#fff8e1"/>
+<rect x="195.48" y="1652.26" width="17.79" height="16.00" fill="#fff8e1"/>
+<text x="195.48" y="1664.26" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">no</text>
+<rect x="213.27" y="1652.26" width="4.45" height="16.00" fill="#fff8e1"/>
+<rect x="217.72" y="1652.26" width="45.34" height="16.00" fill="#fff8e1"/>
+<text x="217.72" y="1664.26" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">matter</text>
+<rect x="263.06" y="1652.26" width="4.45" height="16.00" fill="#fff8e1"/>
+<rect x="267.51" y="1652.26" width="29.34" height="16.00" fill="#fff8e1"/>
+<text x="267.51" y="1664.26" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">how</text>
+<rect x="296.86" y="1652.26" width="4.45" height="16.00" fill="#fff8e1"/>
+<rect x="301.30" y="1652.26" width="22.24" height="16.00" fill="#fff8e1"/>
+<text x="301.30" y="1664.26" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">the</text>
+<rect x="323.54" y="1652.26" width="4.45" height="16.00" fill="#fff8e1"/>
+<rect x="327.99" y="1652.26" width="25.79" height="16.00" fill="#fff8e1"/>
+<text x="327.99" y="1664.26" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">text</text>
+<rect x="353.78" y="1652.26" width="4.45" height="16.00" fill="#fff8e1"/>
+<rect x="358.23" y="1652.26" width="55.12" height="16.00" fill="#fff8e1"/>
+<text x="358.23" y="1664.26" font-family="Helvetica, Arial, sans-serif" font-size="16.00" fill="#24292f" xml:space="preserve">reflows.</text>
+<rect x="40.00" y="1727.66" width="820.00" height="48.34" fill="#16324f"/>
+<rect x="74.00" y="1745.27" width="57.61" height="13.12" fill="#16324f"/>
+<text x="74.00" y="1755.11" font-family="Helvetica, Arial, sans-serif" font-size="13.12" fill="#9fb4cc" xml:space="preserve">Rendered</text>
+<rect x="131.61" y="1745.27" width="3.65" height="13.12" fill="#16324f"/>
+<rect x="135.26" y="1745.27" width="13.85" height="13.12" fill="#16324f"/>
+<text x="135.26" y="1755.11" font-family="Helvetica, Arial, sans-serif" font-size="13.12" fill="#9fb4cc" xml:space="preserve">by</text>
+<rect x="149.11" y="1745.27" width="3.65" height="13.12" fill="#16324f"/>
+<rect x="152.76" y="1745.27" width="32.81" height="13.12" fill="#16324f"/>
+<text x="152.76" y="1755.11" font-family="Helvetica, Arial, sans-serif" font-size="13.12" fill="#9fb4cc" xml:space="preserve">Mote,</text>
+<rect x="185.57" y="1745.27" width="3.65" height="13.12" fill="#16324f"/>
+<rect x="189.22" y="1745.27" width="33.53" height="13.12" fill="#16324f"/>
+<text x="189.22" y="1755.11" font-family="Helvetica, Arial, sans-serif" font-size="13.12" fill="#9fb4cc" xml:space="preserve">which</text>
+<rect x="222.75" y="1745.27" width="3.65" height="13.12" fill="#16324f"/>
+<rect x="226.40" y="1745.27" width="21.15" height="13.12" fill="#16324f"/>
+<text x="226.40" y="1755.11" font-family="Helvetica, Arial, sans-serif" font-size="13.12" fill="#9fb4cc" xml:space="preserve">has</text>
+<rect x="247.55" y="1745.27" width="3.65" height="13.12" fill="#16324f"/>
+<rect x="251.20" y="1745.27" width="14.59" height="13.12" fill="#16324f"/>
+<text x="251.20" y="1755.11" font-family="Helvetica, Arial, sans-serif" font-size="13.12" fill="#9fb4cc" xml:space="preserve">no</text>
+<rect x="265.79" y="1745.27" width="3.65" height="13.12" fill="#16324f"/>
+<rect x="269.44" y="1745.27" width="55.42" height="13.12" fill="#16324f"/>
+<text x="269.44" y="1755.11" font-family="Helvetica, Arial, sans-serif" font-size="13.12" fill="#9fb4cc" xml:space="preserve">rendering</text>
+<rect x="324.85" y="1745.27" width="3.65" height="13.12" fill="#16324f"/>
+<rect x="328.50" y="1745.27" width="39.39" height="13.12" fill="#16324f"/>
+<text x="328.50" y="1755.11" font-family="Helvetica, Arial, sans-serif" font-size="13.12" fill="#9fb4cc" xml:space="preserve">engine</text>
+<rect x="367.89" y="1745.27" width="3.65" height="13.12" fill="#16324f"/>
+<rect x="371.54" y="1745.27" width="66.37" height="13.12" fill="#16324f"/>
+<text x="371.54" y="1755.11" font-family="Helvetica, Arial, sans-serif" font-size="13.12" fill="#9fb4cc" xml:space="preserve">underneath</text>
+<rect x="437.91" y="1745.27" width="3.65" height="13.12" fill="#16324f"/>
+<rect x="441.56" y="1745.27" width="10.21" height="13.12" fill="#16324f"/>
+<text x="441.56" y="1755.11" font-family="Helvetica, Arial, sans-serif" font-size="13.12" fill="#9fb4cc" xml:space="preserve">it.</text>
+</svg>

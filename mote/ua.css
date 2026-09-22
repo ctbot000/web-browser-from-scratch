@@ -2,8 +2,8 @@
    with, before any author CSS.  Modelled on the defaults in the HTML
    standard's rendering section. */
 
-html { display: block; color: #000000; background-color: #ffffff;
-       font-family: serif; font-size: 16px; line-height: 1.2 }
+html { display: block; color: #000000; font-family: serif; font-size: 16px;
+       line-height: 1.2 }
 body { display: block; margin: 8px }
 
 address, article, aside, blockquote, center, dialog, div, figure, figcaption,

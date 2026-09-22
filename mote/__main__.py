@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import os
 import sys
 
 from . import __version__
@@ -41,8 +42,17 @@ def build_parser():
     return parser
 
 
+def resolve_argument(text):
+    """Accept a URL, a local path, or something to hand to a search engine."""
+    from .url import URL
+    if os.path.exists(text):
+        return "file://" + os.path.abspath(text)
+    return str(URL.from_user_input(text, "https://duckduckgo.com/html/?q=%s"))
+
+
 def main(argv=None):
     args = build_parser().parse_args(argv)
+    args.url = resolve_argument(args.url)
 
     if args.dump:
         return dump(args)
@@ -92,14 +102,8 @@ def render_svg_file(args):
     try:
         page = engine.load(args.url)
         height = page.height if args.full_height else args.height
-        background = "#ffffff"
-        body = page.document.body()
-        if body is not None:
-            style = page.styles.get(id(body))
-            if style is not None:
-                color = style.color_of("background-color")
-                if color and color[3] > 0:
-                    background = to_hex(color)
+        background = to_hex(page.canvas_color) if page.canvas_color \
+            else "#ffffff"
         svg = render_svg(page.display_list, args.width, height, background,
                          page.title)
         with open(args.svg, "w", encoding="utf-8") as handle:

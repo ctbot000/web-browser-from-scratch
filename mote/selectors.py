@@ -346,6 +346,8 @@ def _parse_complex(tokens):
             continue
 
         if kind == "delim" and token.value in (">", "+", "~"):
+            if not started and combinator is not None:
+                return None            # two combinators in a row, e.g. "a >> b"
             flush()
             combinator = token.value
             i += 1
