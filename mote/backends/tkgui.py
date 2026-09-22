@@ -62,6 +62,7 @@ class BrowserWindow:
         self._in_status = False
         self._build_chrome()
         self.new_tab(start_url)
+        self.raise_window()
 
     # -- chrome -----------------------------------------------------------
 
@@ -432,8 +433,26 @@ class BrowserWindow:
         self._photos.append(photo)
         self.canvas.create_image(x, y, image=photo, anchor="nw")
 
+    def raise_window(self):
+        """Bring the window to the front.
+
+        A Tk window launched from a process that is not already frontmost
+        opens behind everything else on macOS, which looks exactly like a
+        browser that failed to start.  Going topmost and immediately dropping
+        back lifts it above other windows without pinning it there.
+        """
+        try:
+            self.root.lift()
+            self.root.attributes("-topmost", True)
+            self.root.after(800,
+                            lambda: self.root.attributes("-topmost", False))
+            self.root.focus_force()
+        except tkinter.TclError:
+            pass
+
     def run(self):
         self.canvas.focus_set()
+        self.raise_window()
         self.root.mainloop()
         self.engine.close()
 
