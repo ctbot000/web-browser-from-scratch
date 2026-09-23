@@ -29,7 +29,19 @@ python3 -m mote https://example.com/
 ```
 
 That opens the window: address bar, tabs, history, clickable links, scrolling,
-zoom. If your Python has no `tkinter`, everything else still works.
+zoom, and chrome that follows your desktop's light or dark appearance.
+
+**The window needs Tk 8.6 or newer.** The Tk that ships with macOS is 8.5.9,
+released in 2010 and deprecated by Apple since; on a current macOS it
+composites nothing, so every window — Mote's or anyone's — comes up black.
+Mote checks the version at startup and says so rather than showing you a blank
+page. The fix is a Python built against a current Tk:
+
+```bash
+brew install python-tk@3.13    # or @3.14, matching your Homebrew Python
+```
+
+Everything below works on any Python, with or without `tkinter`.
 
 ```bash
 # Render a page as text in your terminal

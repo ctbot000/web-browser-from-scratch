@@ -17,10 +17,32 @@ from ..paint import DrawBorder, DrawImage, DrawLine, DrawRect, DrawText
 from ..url import URL, URLError
 from ..values import to_hex
 
+MINIMUM_TK = (8, 6)
 SCROLL_STEP = 60
-CHROME_BG = "#f2f3f5"
-CHROME_LINE = "#d6d9de"
 HOME = "about:mote"
+
+LIGHT_CHROME = {"bg": "#f2f3f5", "line": "#d6d9de", "text": "#1b1f23",
+                "dim": "#54585d", "tab_bg": "#ffffff", "tab_fg": "#1b1f23",
+                "idle_fg": "#57606a"}
+DARK_CHROME = {"bg": "#26282c", "line": "#3a3d42", "text": "#e6e8ea",
+               "dim": "#9aa0a6", "tab_bg": "#3a3d42", "tab_fg": "#ffffff",
+               "idle_fg": "#9aa0a6"}
+
+
+def detect_chrome(root):
+    """Pick a chrome palette that matches the desktop's appearance.
+
+    Tk draws native controls in the system appearance whatever colours the
+    surrounding frames are given, so light chrome around dark buttons reads as
+    a half-drawn window.  The system window background answers which one we
+    are in, without asking the platform directly.
+    """
+    try:
+        red, green, blue = root.winfo_rgb("systemWindowBackgroundColor")
+    except tkinter.TclError:
+        return LIGHT_CHROME
+    luminance = (0.2126 * red + 0.7152 * green + 0.0722 * blue) / 65535.0
+    return DARK_CHROME if luminance < 0.4 else LIGHT_CHROME
 
 
 class Tab:
@@ -51,6 +73,8 @@ class BrowserWindow:
         self.root = tkinter.Tk()
         self.root.title("Mote")
         self.root.geometry("%dx%d" % (width, height))
+        self.tk_warning = check_tk_version(self.root)
+        self.chrome = detect_chrome(self.root)
         self.metrics = TkMetrics(self.root)
         self.engine = Engine(metrics=self.metrics, width=width,
                              height=height, on_status=self.set_status)
@@ -62,16 +86,19 @@ class BrowserWindow:
         self._in_status = False
         self._build_chrome()
         self.new_tab(start_url)
+        if self.tk_warning:
+            self.set_status(self.tk_warning)
         self.raise_window()
 
     # -- chrome -----------------------------------------------------------
 
     def _build_chrome(self):
         ui = tkfont.Font(family="Helvetica", size=12)
-        self.tabbar = tkinter.Frame(self.root, bg=CHROME_BG, height=30)
+        chrome = self.chrome
+        self.tabbar = tkinter.Frame(self.root, bg=chrome["bg"], height=30)
         self.tabbar.pack(fill="x", side="top")
 
-        toolbar = tkinter.Frame(self.root, bg=CHROME_BG)
+        toolbar = tkinter.Frame(self.root, bg=chrome["bg"])
         toolbar.pack(fill="x", side="top")
         self.back_button = tkinter.Button(toolbar, text="←", width=2,
                                           command=self.go_back,
@@ -85,7 +112,10 @@ class BrowserWindow:
                        highlightthickness=0).pack(side="left", padx=2, pady=6)
 
         self.address = tkinter.Entry(toolbar, font=ui, relief="solid",
-                                     borderwidth=1)
+                                     borderwidth=1, bg=chrome["tab_bg"],
+                                     fg=chrome["text"],
+                                     insertbackground=chrome["text"],
+                                     highlightbackground=chrome["line"])
         self.address.pack(side="left", fill="x", expand=True, padx=8, pady=6,
                           ipady=3)
         self.address.bind("<Return>", self.on_address_enter)
@@ -93,7 +123,7 @@ class BrowserWindow:
                        self.new_tab(HOME), highlightthickness=0).pack(
                            side="left", padx=(0, 8), pady=6)
 
-        tkinter.Frame(self.root, bg=CHROME_LINE, height=1).pack(fill="x")
+        tkinter.Frame(self.root, bg=chrome["line"], height=1).pack(fill="x")
 
         body = tkinter.Frame(self.root)
         body.pack(fill="both", expand=True)
@@ -103,8 +133,9 @@ class BrowserWindow:
                                            command=self.on_scrollbar)
         self.scrollbar.pack(side="right", fill="y")
 
-        self.status = tkinter.Label(self.root, text="", anchor="w", bg=CHROME_BG,
-                                    font=("Helvetica", 10), fg="#54585d")
+        self.status = tkinter.Label(self.root, text="", anchor="w",
+                                    bg=chrome["bg"], font=("Helvetica", 10),
+                                    fg=chrome["dim"])
         self.status.pack(fill="x", side="bottom")
 
         self.canvas.bind("<Configure>", self.on_resize)
@@ -171,8 +202,8 @@ class BrowserWindow:
             active = index == self.active
             button = tkinter.Label(
                 self.tabbar, text=" %s " % tab.title,
-                bg="#ffffff" if active else CHROME_BG,
-                fg="#1b1f23" if active else "#57606a",
+                bg=self.chrome["tab_bg"] if active else self.chrome["bg"],
+                fg=self.chrome["tab_fg"] if active else self.chrome["idle_fg"],
                 font=("Helvetica", 11, "bold" if active else "normal"),
                 padx=8, pady=5)
             button.pack(side="left", padx=(2, 0), pady=(3, 0))
@@ -455,6 +486,49 @@ class BrowserWindow:
         self.raise_window()
         self.root.mainloop()
         self.engine.close()
+
+
+def tk_version(root):
+    text = root.tk.call("info", "patchlevel")
+    parts = []
+    for piece in str(text).split("."):
+        digits = "".join(c for c in piece if c.isdigit())
+        parts.append(int(digits) if digits else 0)
+    return tuple(parts[:3]), str(text)
+
+
+def check_tk_version(root):
+    """Warn about a Tk too old to draw on a current desktop.
+
+    The Tk that ships with macOS is 8.5.9, released in 2010 and deprecated by
+    Apple for years.  On recent macOS it composites nothing: widget
+    backgrounds, canvases and all their contents come out as a flat dark
+    rectangle.  The engine is painting correctly into a surface that is never
+    shown, which looks exactly like a browser that renders a black page, so
+    say plainly what is wrong rather than letting it look like our bug.
+    """
+    import sys
+
+    version, text = tk_version(root)
+    if version >= MINIMUM_TK:
+        return ""
+    message = ("This Python is using Tk %s, which cannot draw on a current "
+               "desktop. Pages will render blank or black." % text)
+    print("\n  %s\n" % message, file=sys.stderr)
+    if sys.platform == "darwin":
+        print("  Apple's bundled Tk has been broken for years. Install a "
+              "Python with Tk 8.6 or newer:\n"
+              "      brew install python-tk@3.13\n"
+              "      /opt/homebrew/bin/python3.13 -m mote https://example.com/\n"
+              "\n  Or render without a window:\n"
+              "      python3 -m mote --text https://example.com/\n",
+              file=sys.stderr)
+    else:
+        print("  Install a Python built against Tk 8.6 or newer, or render "
+              "without a window:\n"
+              "      python3 -m mote --text https://example.com/\n",
+              file=sys.stderr)
+    return message
 
 
 def _scaled(font, zoom):
